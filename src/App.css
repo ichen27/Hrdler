@@ -1,0 +1,141 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.logo {
+  width:55px;
+  margin-left: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.pic{
+  width: 200px;
+
+}
+
+.search-input {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-input input {
+  width: 600px;
+  height: 30px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-menu img {
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.body {
+  display: flex;
+  height: calc(100vh - 60px);
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 805px;
+  background-color: #333333;
+  color: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.workspace-name {
+  font-size: 24px;
+  padding: 20px;
+}
+
+.workspace-menu {
+  margin-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menu-item i {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.page-title {
+  flex: 1;
+  font-size: 24px;
+}
+
+.page-options {
+  cursor: pointer;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+
+.app{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbarlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.homelink{
+  margin-right: 20px;
+}
+.pagelink{
+  margin-right: 50px;
+}
+
+.navbar{
+  box-shadow: 7.4564px 7.4564px 7.4564px 7.4564px rgba(0.1, 0.1, 0.1, 0.1);
+}
