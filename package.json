@@ -1,11 +1,14 @@
 {
+  "homepage": "http://ichen27.github.io/Hrdler",
   "name": "note_frontend",
   "private": true,
   "version": "0.0.0",
-  "proxy":"http://localhost:5000",
+  "proxy": "http://localhost:5000",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -23,6 +26,7 @@
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^5.0.0",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vite": "^3.2.5"
